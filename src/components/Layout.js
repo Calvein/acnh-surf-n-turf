@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Flex } from '@chakra-ui/core'
 
-import Header from './header'
+import Header from './Header'
 import Container from './Container'
 
 const Layout = ({ children }) => {
