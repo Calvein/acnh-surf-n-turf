@@ -461,8 +461,8 @@
     "name": "Diving beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Diving_Beetle_HHD_Icon.png/revision/latest?cb=20161105194810",
     "price": 800,
-    "location": "On Ponds and Rivers\n8 AM - 7 PM",
-    "time": "✓",
+    "location": "On Ponds and Rivers",
+    "time": "8 AM - 7 PM",
     "months": [
       true,
       true,
@@ -473,6 +473,7 @@
       false,
       false,
       false,
+      true,
       true,
       true
     ]

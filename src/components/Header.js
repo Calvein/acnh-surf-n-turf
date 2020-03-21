@@ -5,8 +5,8 @@ import {
   Link,
   IconButton,
   Text,
-  Stack,
   Image,
+  Box,
 } from '@chakra-ui/core'
 import Container from './Container'
 import fishes from '../data/fishes.json'
@@ -24,37 +24,46 @@ const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode()
 
   return (
-    <Container
+    <Box
       as="header"
       display="flex"
-      justifyContent="space-between"
-      alignItems="center"
+      justifyContent="center"
+      width="100%"
       bg={colorMode === 'light' ? 'gray.200' : 'gray.700'}
       borderBottom="1px solid"
       borderBottomColor={colorMode === 'light' ? 'gray.300' : 'gray.600'}
     >
-      <Text as="h1">
-        <Link as={RouterLink} to="/">
-          AC: NH - Surf 'n' turf
-        </Link>
-      </Text>
+      <Container
+        display="flex"
+        justifyContent="space-between"
+        alignItems="center"
+      >
+        <Text as="h1" fontFamily="mono">
+          <Link as={RouterLink} to="/" display="flex" alignItems="center">
+            <Image
+              src={randomFish.image}
+              alt="random animal"
+              height={8}
+              mr={2}
+            />
+            AC: NH - Surf 'n' turf
+            <Image
+              src={randomBug.image}
+              alt="random animal"
+              height={8}
+              ml={2}
+            />
+          </Link>
+        </Text>
 
-      <Stack as="nav" flex="1" mx={[2, 2, 6]}>
-        <Link as={RouterLink} to="/fishes/" display="flex" alignItems="center">
-          Fishes <Image src={randomFish.image} alt="random fish" height={8} />
-        </Link>
-        <Link as={RouterLink} to="/bugs/" display="flex" alignItems="center">
-          Bugs <Image src={randomBug.image} alt="random bug" height={8} />
-        </Link>
-      </Stack>
-
-      <IconButton
-        variant="ghost"
-        rounded="full"
-        icon={colorMode === 'light' ? 'moon' : 'sun'}
-        onClick={toggleColorMode}
-      />
-    </Container>
+        <IconButton
+          variant="ghost"
+          rounded="full"
+          icon={colorMode === 'light' ? 'moon' : 'sun'}
+          onClick={toggleColorMode}
+        />
+      </Container>
+    </Box>
   )
 }
 
