@@ -175,6 +175,11 @@ const columns = [
   // The data is here but it's quite useless
   // { Header: 'Shadow size', accessor: 'shadow', disableFilters: true },
   {
+    Header: 'Time',
+    accessor: 'time',
+    disableFilters: true,
+  },
+  {
     Header: 'Months',
     accessor: 'months',
     width: 100,
@@ -263,7 +268,9 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
         // Badly formatted or unknown time
         if (!timeRegExp.test(catchingTime)) return false
 
-        const [, from, meridiem, to] = catchingTime.match(timeRegExp)
+        let [, from, meridiem, to] = catchingTime.match(timeRegExp)
+        from = parseInt(from)
+        to = parseInt(to)
 
         if (meridiem === 'AM') {
           if (currentHour < from || currentHour > to + 11) {
@@ -315,7 +322,7 @@ const HomePage = () => {
           setGlobalFilter={setGlobalFilter}
         />
 
-        <Flex direction={['column', 'row']} mt={4}>
+        <Flex direction={['column', 'row']} my={4}>
           {headers.map((column) =>
             column.canFilter ? column.render('Filter') : null,
           )}
