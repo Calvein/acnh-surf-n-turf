@@ -1,42 +1,61 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import { Link as RouterLink } from 'gatsby'
+import {
+  useColorMode,
+  Link,
+  IconButton,
+  Text,
+  Stack,
+  Image,
+} from '@chakra-ui/core'
+import Container from './Container'
+import fishes from '../data/fishes.json'
+import bugs from '../data/bugs.json'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+const sample = (arr) => {
+  const len = arr == null ? 0 : arr.length
+  return len ? arr[Math.floor(Math.random() * len)] : undefined
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
+const randomFish = sample(fishes.filter((d) => d.image))
+const randomBug = sample(bugs.filter((d) => d.image))
+
+const Header = () => {
+  const { colorMode, toggleColorMode } = useColorMode()
+
+  return (
+    <Container
+      as="header"
+      display="flex"
+      justifyContent="space-between"
+      alignItems="center"
+      bg={colorMode === 'light' ? 'gray.200' : 'gray.700'}
+      borderBottom="1px solid"
+      borderBottomColor={colorMode === 'light' ? 'gray.300' : 'gray.600'}
+    >
+      <Text as="h1">
+        <Link as={RouterLink} to="/">
+          AC: NH - Surf 'n' turf
+        </Link>
+      </Text>
+
+      <Stack as="nav" flex="1" mx={[2, 2, 6]}>
+        <Link as={RouterLink} to="/fishes/" display="flex" alignItems="center">
+          Fishes <Image src={randomFish.image} alt="random fish" height={8} />
+        </Link>
+        <Link as={RouterLink} to="/bugs/" display="flex" alignItems="center">
+          Bugs <Image src={randomBug.image} alt="random bug" height={8} />
+        </Link>
+      </Stack>
+
+      <IconButton
+        variant="ghost"
+        rounded="full"
+        icon={colorMode === 'light' ? 'moon' : 'sun'}
+        onClick={toggleColorMode}
+      />
+    </Container>
+  )
 }
 
 export default Header
