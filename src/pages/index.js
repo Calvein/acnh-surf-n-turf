@@ -357,7 +357,12 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
 
 const HomePage = () => {
   const [caughtAnimals, setCaughtAnimals] = useState(
-    () => JSON.parse(localStorage.getItem('caughtAnimals')) || [],
+    () =>
+      JSON.parse(
+        typeof window === 'undefined'
+          ? null
+          : localStorage.getItem('caughtAnimals'),
+      ) || [],
   )
 
   const onCaughtAnimal = (e) => {
