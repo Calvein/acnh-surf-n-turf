@@ -179,7 +179,7 @@
     "name": "Ranchu Goldfish",
     "price": 4500,
     "location": "Pond",
-    "shadow": 1,
+    "shadow": 2,
     "time": "9 AM - 4 PM",
     "months": [
       true,
@@ -223,7 +223,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/Crawfish_HHD_Icon.png/revision/latest?cb=20161105194621",
     "price": 200,
     "location": "Pond",
-    "shadow": null,
+    "shadow": 3,
     "time": "All day",
     "months": [
       false,
