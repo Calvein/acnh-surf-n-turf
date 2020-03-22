@@ -79,10 +79,25 @@ const TableWrapper = styled(Box)`
 
 const locations = [...new Set(data.map((d) => d.location))]
 const formatBells = new Intl.NumberFormat()
+const months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+]
 
 const columns = [
   {
     accessor: 'type',
+    filter: 'includes',
     Filter: ({ column: { filterValue = ['fish', 'bug'], setFilter } }) => {
       const onChange = (e) => {
         const { checked, value } = e.target
@@ -122,7 +137,6 @@ const columns = [
         </FormControl>
       )
     },
-    filter: 'includes',
   },
   {
     Header: 'Name',
@@ -183,7 +197,6 @@ const columns = [
     Header: 'Months',
     accessor: 'months',
     width: 100,
-    disableFilters: true,
     disableSortBy: true,
     Cell: ({ cell }) => {
       const currentMonth = new Date().getMonth()
@@ -201,6 +214,34 @@ const columns = [
             />
           ))}
         </Flex>
+      )
+    },
+    filter: (rows, id, filterValue) => {
+      if (filterValue == null) return rows
+
+      return rows.filter((row) => {
+        return row.values[id][filterValue]
+      })
+    },
+    Filter: ({ column: { setFilter } }) => {
+      return (
+        <FormControl>
+          <FormLabel display={['block', 'inline-block']}>
+            Month
+            <Select
+              onChange={(e) => {
+                setFilter(Number(e.target.value))
+              }}
+            >
+              <option value="">All</option>
+              {months.map((month, i) => (
+                <option key={i} value={i}>
+                  {month}
+                </option>
+              ))}
+            </Select>
+          </FormLabel>
+        </FormControl>
       )
     },
   },
