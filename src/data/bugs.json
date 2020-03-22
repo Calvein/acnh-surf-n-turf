@@ -82,7 +82,7 @@
   },
   {
     "name": "Common bluebottle",
-    "price": null,
+    "price": 300,
     "location": "Flying",
     "time": "?",
     "months": [
@@ -265,8 +265,8 @@
   },
   {
     "name": "Atlas moth",
-    "price": null,
-    "location": "Flying by light",
+    "price": 3000,
+    "location": "On Trees",
     "time": "7 PM - 4 AM",
     "months": [
       false,

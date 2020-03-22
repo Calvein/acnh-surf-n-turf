@@ -1,6 +1,7 @@
 [
   {
     "name": "Bitterling",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4a/Bitterling_HHD_Icon.png/revision/latest?cb=20161105193556",
     "price": 900,
     "location": "River",
     "shadow": 1,
@@ -22,6 +23,7 @@
   },
   {
     "name": "Pale chub",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Pale_Chub_HHD_Icon.png/revision/latest?cb=20161105202841",
     "price": 200,
     "location": "River",
     "shadow": 1,
@@ -43,6 +45,7 @@
   },
   {
     "name": "Crucian carp",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e8/Crucian_Carp_HHD_Icon.png/revision/latest?cb=20161105194656",
     "price": 160,
     "location": "River",
     "shadow": 2,
@@ -417,7 +420,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/Bluegill_HHD_Icon.png/revision/latest?cb=20161105193653",
     "price": 180,
     "location": "River",
-    "shadow": null,
+    "shadow": 2,
     "time": "9 AM - 4 PM",
     "months": [
       true,
