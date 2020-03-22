@@ -81,6 +81,26 @@
     ]
   },
   {
+    "name": "Common bluebottle",
+    "price": null,
+    "location": "Flying",
+    "time": "?",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Paper kite butterfly",
     "price": 1000,
     "location": "Flying",
@@ -98,6 +118,26 @@
       true,
       true,
       true
+    ]
+  },
+  {
+    "name": "Great purple emperor",
+    "price": null,
+    "location": "Flying",
+    "time": "4 AM - 7 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   },
   {
@@ -143,6 +183,66 @@
     ]
   },
   {
+    "name": "Agrias butterfly",
+    "price": 3000,
+    "location": "Flying",
+    "time": "8 AM - 5 PM",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Rajah Brooke's Birdwing",
+    "price": null,
+    "location": "Flying",
+    "time": "?",
+    "months": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "name": "Queen Alexandra's birdwing",
+    "price": 3000,
+    "location": "Flying",
+    "time": "8 AM - 4 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Moth",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Moth_HHD_Icon.png/revision/latest?cb=20161105202407",
     "price": 130,
@@ -161,6 +261,46 @@
       true,
       true,
       true
+    ]
+  },
+  {
+    "name": "Atlas moth",
+    "price": null,
+    "location": "Flying by light",
+    "time": "7 PM - 4 AM",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Madagascan sunset moth",
+    "price": null,
+    "location": "Flying",
+    "time": "8 AM - 4 PM",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   },
   {
@@ -185,9 +325,30 @@
     ]
   },
   {
+    "name": "Migratory locust",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Migratory_Locust_HHD_Icon.png/revision/latest?cb=20161105201959",
+    "price": 600,
+    "location": "Hopping",
+    "time": "8 AM - 7 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
     "name": "Rice grasshopper",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3c/Rice_Grasshopper_HHD_Icon.png/revision/latest?cb=20161105203817",
-    "price": null,
+    "price": 160,
     "location": "Hopping",
     "time": "8 AM - 7 PM",
     "months": [
@@ -353,9 +514,69 @@
     ]
   },
   {
+    "name": "Brown cicada",
+    "price": null,
+    "location": "On Trees",
+    "time": "8 AM - 5 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Robust cicada",
+    "price": null,
+    "location": "On Trees",
+    "time": "8 AM - 5 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Giant cicada",
+    "price": null,
+    "location": "On Trees",
+    "time": "8 AM - 5 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Walker cicada",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/Walker_Cicada_HHD_Icon.png/revision/latest?cb=20161105205518",
-    "price": null,
+    "price": 400,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
     "months": [
@@ -367,6 +588,47 @@
       false,
       false,
       false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Evening cicada",
+    "price": null,
+    "location": "On Trees",
+    "time": "4 AM - 8 AM & 4 PM - 7 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Cicada shell",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/Cicada_Shell_HHD_Icon.png/revision/latest?cb=20161105194347",
+    "price": null,
+    "location": "On Trees",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -416,6 +678,67 @@
     ]
   },
   {
+    "name": "Banded dragonfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/Banded_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105193443",
+    "price": 4500,
+    "location": "Flying",
+    "time": "8 AM - 5 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Damselfly",
+    "price": null,
+    "location": "Flying",
+    "time": "All day",
+    "months": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "name": "Firefly",
+    "price": null,
+    "location": "Flying",
+    "time": "7 PM - 4 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Mole cricket",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4a/Mole_Cricket_HHD_Icon.png/revision/latest?cb=20161105202337",
     "price": 500,
@@ -461,8 +784,8 @@
     "name": "Diving beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Diving_Beetle_HHD_Icon.png/revision/latest?cb=20161105194810",
     "price": 800,
-    "location": "On Ponds and Rivers",
-    "time": "8 AM - 7 PM",
+    "location": "On Ponds and Rivers\n8 AM - 7 PM",
+    "time": "✓",
     "months": [
       true,
       true,
@@ -476,6 +799,26 @@
       true,
       true,
       true
+    ]
+  },
+  {
+    "name": "Giant water bug",
+    "price": null,
+    "location": "On Ponds and Rivers",
+    "time": "7 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   },
   {
@@ -562,6 +905,26 @@
     ]
   },
   {
+    "name": "Jewel beetle",
+    "price": null,
+    "location": "On Trees",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Violin beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Violin_Beetle_HHD_Icon.png/revision/latest?cb=20161105205501",
     "price": null,
@@ -603,22 +966,382 @@
     ]
   },
   {
+    "name": "Rosalia batesi beetle",
+    "price": null,
+    "location": "-",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Blue weevil beetle",
+    "price": null,
+    "location": "?",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Dung beetle",
+    "price": null,
+    "location": "?",
+    "time": "?",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "name": "Earth-boring Dung Beetle",
     "price": null,
     "location": "On Ground",
     "time": "All day",
     "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Scarab beetle",
+    "price": null,
+    "location": "On Tree",
+    "time": "11 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Drone beetle",
+    "price": null,
+    "location": "On Tree",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
       false,
       false,
       false,
+      false
+    ]
+  },
+  {
+    "name": "Goliath beetle",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
       false,
       false,
       false,
       false,
       false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Saw stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Miyama stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "All day",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Giant stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "11 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Rainbow stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "7 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Cyclommatus stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Golden stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Giraffe stag",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Horned dynastid",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Horned atlas",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Horned elephant",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Horned hercules",
+    "price": null,
+    "location": "On Trees",
+    "time": "5 PM - 8 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "name": "Walking stick",
+    "price": null,
+    "location": "Shaking Tree",
+    "time": "4 AM - 8 AM & 4 PM - 6 PM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -665,6 +1388,27 @@
     ]
   },
   {
+    "name": "Ant",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/Ant_HHD_Icon.png/revision/latest?cb=20161105192047",
+    "price": null,
+    "location": "On rotten food",
+    "time": "All day",
+    "months": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
     "name": "Hermit crab",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/Hermit_Crab_HHD_Icon.png/revision/latest?cb=20161105200739",
     "price": 1000,
@@ -691,6 +1435,26 @@
     "price": 200,
     "location": "On beach rocks",
     "time": "All day",
+    "months": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "name": "Fly",
+    "price": null,
+    "location": "On boot",
+    "time": "All Day",
     "months": [
       true,
       true,
@@ -851,6 +1615,26 @@
       false,
       true,
       true
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "price": null,
+    "location": "On the ground",
+    "time": "7 PM - 4 AM",
+    "months": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
     ]
   }
 ]

@@ -186,14 +186,18 @@ const columns = [
     disableFilters: true,
     disableSortBy: true,
     Cell: ({ cell }) => {
+      const currentMonth = new Date().getMonth()
+
       return (
         <Flex>
           {cell.value.map((month, i) => (
             <Box
               key={i}
+              ml="1px"
               height={3}
               width={100 / 12 + '%'}
               backgroundColor={month ? 'green.500' : 'red.500'}
+              outline={i === currentMonth ? '1px solid red' : null}
             />
           ))}
         </Flex>
