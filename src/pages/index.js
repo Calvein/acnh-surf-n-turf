@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useTable, useSortBy, useFilters, useGlobalFilter } from 'react-table'
 import {
   Input,
@@ -38,6 +38,9 @@ const TableWrapper = styled(Box)`
     border: 1px solid;
 
     tr {
+      &[data-is-caught] {
+        opacity: 0.4;
+      }
       :last-child {
         td {
           border-bottom: 0;
@@ -142,11 +145,11 @@ const columns = [
     Header: 'Name',
     accessor: 'name',
     disableFilters: true,
-    Cell: ({ cell, row }) => {
+    Cell: ({ cell }) => {
       return (
         <Stack isInline alignItems="center">
-          {row.original.image && (
-            <img src={row.original.image} alt={cell.value} lazy="true" />
+          {cell.row.original.image && (
+            <img src={cell.row.original.image} alt={cell.value} lazy="true" />
           )}
           <Box>{cell.value}</Box>
         </Stack>
@@ -245,6 +248,26 @@ const columns = [
       )
     },
   },
+  {
+    Header: 'Caught',
+    accessor: (row) => `${row.name}-caught`,
+    width: 75,
+    disableFilters: true,
+    disableSortBy: true,
+    Cell: ({ cell, caughtAnimals, onCaughtAnimal }) => {
+      const animal = cell.row.values.name
+
+      return (
+        <Flex justifyContent="center">
+          <Checkbox
+            defaultIsChecked={caughtAnimals.includes(animal)}
+            value={animal}
+            onChange={onCaughtAnimal}
+          />
+        </Flex>
+      )
+    },
+  },
 ]
 
 const GlobalFilter = ({
@@ -333,6 +356,23 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
 }
 
 const HomePage = () => {
+  const [caughtAnimals, setCaughtAnimals] = useState(
+    () => JSON.parse(localStorage.getItem('caughtAnimals')) || [],
+  )
+
+  const onCaughtAnimal = (e) => {
+    const { value, checked } = e.target
+
+    setCaughtAnimals((caughtAnimals) => {
+      const newCaughtAnimals = checked
+        ? [...caughtAnimals, value]
+        : caughtAnimals.filter((d) => d !== value)
+      localStorage.setItem('caughtAnimals', JSON.stringify(newCaughtAnimals))
+
+      return newCaughtAnimals
+    })
+  }
+
   const {
     getTableProps,
     getTableBodyProps,
@@ -402,12 +442,21 @@ const HomePage = () => {
               {rows.map((row) => {
                 prepareRow(row)
                 return (
-                  <tr {...row.getRowProps()}>
-                    {row.cells.map((cell) => {
-                      return (
-                        <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-                      )
-                    })}
+                  <tr
+                    {...row.getRowProps()}
+                    data-is-caught={
+                      caughtAnimals.includes(row.values.name) ? true : null
+                    }
+                  >
+                    {row.cells.map((cell) => (
+                      <td {...cell.getCellProps()}>
+                        <cell.column.Cell
+                          cell={cell}
+                          caughtAnimals={caughtAnimals}
+                          onCaughtAnimal={onCaughtAnimal}
+                        />
+                      </td>
+                    ))}
                   </tr>
                 )
               })}
