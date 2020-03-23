@@ -177,6 +177,7 @@
   },
   {
     "name": "Ranchu Goldfish",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/02/Ranchu_Goldfish_HHD_Icon.png/revision/latest?cb=20200323024440",
     "price": 4500,
     "location": "Pond",
     "shadow": 2,
@@ -202,20 +203,20 @@
     "price": null,
     "location": "Pond",
     "shadow": 1,
-    "time": "9 AM - 4 PM",
+    "time": "All day",
     "months": [
+      false,
+      false,
+      false,
       true,
       true,
       true,
       true,
       true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false
     ]
   },
   {
@@ -264,6 +265,7 @@
   },
   {
     "name": "Snapping Turtle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/71/Snapping_Turtle_HHD_Icon.png/revision/latest?cb=20200323024411",
     "price": 5000,
     "location": "River",
     "shadow": null,
@@ -483,6 +485,7 @@
   },
   {
     "name": "Tilapia",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/Tilapia_HHD_Icon.png/revision/latest?cb=20200323024249",
     "price": 800,
     "location": "River",
     "shadow": null,
@@ -530,8 +533,10 @@
     "price": null,
     "location": "River",
     "shadow": 2,
-    "time": "?",
+    "time": "All day",
     "months": [
+      true,
+      true,
       false,
       false,
       false,
@@ -541,9 +546,7 @@
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -572,7 +575,7 @@
     "name": "Cherry Salmon",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/Cherry_Salmon_HHD_Icon.png/revision/latest?cb=20161105194343",
     "price": 1000,
-    "location": "River (Clifftop)",
+    "location": "River (Clifftop)/River",
     "shadow": 3,
     "time": "4 PM - 9 AM",
     "months": [
@@ -594,7 +597,7 @@
     "name": "Char",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/Char_HHD_Icon.png/revision/latest?cb=20161105194339",
     "price": 3800,
-    "location": "River (Clifftop)",
+    "location": "River (Clifftop) / River / Pond",
     "shadow": 3,
     "time": "4 PM - 9 AM",
     "months": [
@@ -614,6 +617,7 @@
   },
   {
     "name": "Golden Trout",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Golden_Trout_HHD_Icon.png/revision/latest?cb=20200323024200",
     "price": 15000,
     "location": "River (Clifftop)",
     "shadow": 4,
@@ -789,6 +793,7 @@
   },
   {
     "name": "Betta",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/Betta_HHD_Icon.png/revision/latest?cb=20200323024111",
     "price": 2500,
     "location": "River",
     "shadow": 2,
@@ -832,6 +837,7 @@
   },
   {
     "name": "Rainbowfish",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e7/Rainbowfish_NH_Icon.png/revision/latest?cb=20200323024037",
     "price": 800,
     "location": "River",
     "shadow": 2,
@@ -1121,7 +1127,7 @@
     "price": 10000,
     "location": "Sea",
     "shadow": 6,
-    "time": "?",
+    "time": "4 AM - 9 PM",
     "months": [
       false,
       false,
@@ -1205,6 +1211,7 @@
   },
   {
     "name": "Anchovy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4a/Anchovy_HHD_Icon.png/revision/latest?cb=20200323023912",
     "price": 200,
     "location": "Sea",
     "shadow": 2,
@@ -1490,7 +1497,8 @@
   },
   {
     "name": "Mahi-mahi",
-    "price": null,
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/Mahi-Mahi_HHD_Icon.png/revision/latest?cb=20200323023810",
+    "price": 6000,
     "location": "Pier",
     "shadow": 5,
     "time": "All day",
@@ -1625,7 +1633,7 @@
     "price": 13000,
     "location": "Sea",
     "shadow": 6,
-    "time": "?",
+    "time": "All day",
     "months": [
       false,
       false,
@@ -1643,6 +1651,7 @@
   },
   {
     "name": "Suckerfish",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/Suckerfish_HHD_Icon.png/revision/latest?cb=20200323023650",
     "price": 1500,
     "location": "Sea",
     "shadow": null,
@@ -1708,9 +1717,10 @@
   },
   {
     "name": "Barreleye",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/Barreleye_HHD_Icon.png/revision/latest?cb=20200323023349",
     "price": 15000,
     "location": "Sea",
-    "shadow": null,
+    "shadow": 1,
     "time": "9 PM - 4 AM",
     "months": [
       true,

@@ -1,6 +1,7 @@
 [
   {
     "name": "Common butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Common_Butterfly_HHD_Icon.png/revision/latest?cb=20161105194447",
     "price": 160,
     "location": "Flying",
     "time": "4 AM - 7 PM",
@@ -21,6 +22,7 @@
   },
   {
     "name": "Yellow butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/Yellow_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205712",
     "price": 160,
     "location": "Flying",
     "time": "4 AM - 7 PM",
@@ -41,6 +43,7 @@
   },
   {
     "name": "Tiger butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/Tiger_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205248",
     "price": 240,
     "location": "Flying",
     "time": "4 AM - 7 PM",
@@ -84,7 +87,7 @@
     "name": "Common bluebottle",
     "price": 300,
     "location": "Flying",
-    "time": "?",
+    "time": "4 AM - 7 PM",
     "months": [
       false,
       false,
@@ -204,9 +207,9 @@
   },
   {
     "name": "Rajah Brooke's Birdwing",
-    "price": null,
+    "price": 2500,
     "location": "Flying",
-    "time": "?",
+    "time": "8 AM - 5 PM",
     "months": [
       true,
       true,
@@ -285,7 +288,7 @@
   },
   {
     "name": "Madagascan sunset moth",
-    "price": null,
+    "price": 2500,
     "location": "Flying",
     "time": "8 AM - 4 PM",
     "months": [
@@ -353,35 +356,35 @@
     "time": "8 AM - 7 PM",
     "months": [
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false
     ]
   },
   {
     "name": "Grasshopper",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/Grasshopper_HHD_Icon.png/revision/latest?cb=20161105195832",
-    "price": null,
+    "price": 160,
     "location": "Hopping",
     "time": "8 AM - 5 PM",
     "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false
@@ -390,41 +393,41 @@
   {
     "name": "Cricket",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/Cricket_HHD_Icon.png/revision/latest?cb=20161105194652",
-    "price": null,
+    "price": 130,
     "location": "Hopping",
     "time": "5 PM - 8 AM",
     "months": [
       false,
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false
     ]
   },
   {
     "name": "Bell cricket",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Bell_Cricket_HHD_Icon.png/revision/latest?cb=20161105193526",
-    "price": null,
+    "price": 430,
     "location": "Hopping",
     "time": "5 PM - 8 AM",
     "months": [
       false,
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false
     ]
@@ -436,25 +439,25 @@
     "location": "On Flowers",
     "time": "8 AM - 5 PM",
     "months": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
       false,
       false,
       true,
       true,
       true,
-      true
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   },
   {
     "name": "Orchid mantis",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Orchid_Mantis_HHD_Icon.png/revision/latest?cb=20161105202812",
     "price": 2400,
-    "location": "On flowers",
+    "location": "On flowers (white)",
     "time": "8 AM - 5 PM",
     "months": [
       false,
@@ -581,14 +584,14 @@
     "time": "8 AM - 5 PM",
     "months": [
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false
@@ -644,14 +647,14 @@
     "months": [
       false,
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false
     ]
@@ -663,18 +666,18 @@
     "location": "Flying",
     "time": "8 AM - 5 PM",
     "months": [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
       false,
       false,
       false,
       true,
       true,
-      true
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
     ]
   },
   {
@@ -762,48 +765,48 @@
   {
     "name": "Pondskater",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Pondskater_HHD_Icon.png/revision/latest?cb=20161105203305",
-    "price": null,
+    "price": 130,
     "location": "On Ponds",
     "time": "8 AM - 7 PM",
     "months": [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
       false,
       false,
       false,
       false,
       true,
-      true
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   },
   {
     "name": "Diving beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Diving_Beetle_HHD_Icon.png/revision/latest?cb=20161105194810",
     "price": 800,
-    "location": "On Ponds and Rivers\n8 AM - 7 PM",
-    "time": "✓",
+    "location": "On Ponds and Rivers",
+    "time": "8 AM - 7 PM",
     "months": [
-      true,
-      true,
-      false,
-      false,
-      false,
       false,
       false,
       false,
       false,
       true,
       true,
-      true
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   },
   {
     "name": "Giant water bug",
-    "price": null,
+    "price": 2000,
     "location": "On Ponds and Rivers",
     "time": "7 PM - 8 AM",
     "months": [
@@ -906,7 +909,7 @@
   },
   {
     "name": "Jewel beetle",
-    "price": null,
+    "price": 2400,
     "location": "On Trees",
     "time": "All day",
     "months": [
@@ -927,22 +930,22 @@
   {
     "name": "Violin beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Violin_Beetle_HHD_Icon.png/revision/latest?cb=20161105205501",
-    "price": null,
-    "location": "On Trees",
+    "price": 450,
+    "location": "On a tree stump",
     "time": "All day",
     "months": [
       false,
       false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
       false,
       false,
       true,
-      true
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   },
   {
@@ -1027,7 +1030,7 @@
   },
   {
     "name": "Earth-boring Dung Beetle",
-    "price": null,
+    "price": 300,
     "location": "On Ground",
     "time": "All day",
     "months": [
@@ -1329,14 +1332,14 @@
     "name": "Walking stick",
     "price": null,
     "location": "Shaking Tree",
-    "time": "4 AM - 8 AM & 4 PM - 6 PM",
+    "time": "4 AM - 8 AM & 5 PM - 7 PM",
     "months": [
       false,
       false,
       false,
       false,
       false,
-      true,
+      false,
       true,
       true,
       true,
@@ -1352,15 +1355,15 @@
     "location": "Under Trees Disguised as Leafs",
     "time": "All day",
     "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false
@@ -1453,7 +1456,7 @@
   {
     "name": "Fly",
     "price": null,
-    "location": "On boot",
+    "location": "On trash items",
     "time": "All Day",
     "months": [
       true,
@@ -1477,18 +1480,18 @@
     "location": "Flying",
     "time": "5 PM - 4 AM",
     "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   },
   {
@@ -1498,18 +1501,18 @@
     "location": "Villager's Heads",
     "time": "All day",
     "months": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
       false,
       false,
       false,
       true,
       true,
-      true
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   },
   {
@@ -1578,7 +1581,7 @@
   {
     "name": "Spider",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/Spider_HHD_Icon.png/revision/latest?cb=20161105204758",
-    "price": null,
+    "price": 480,
     "location": "Shake a tree",
     "time": "7 PM - 8 AM",
     "months": [
@@ -1619,7 +1622,7 @@
   },
   {
     "name": "Scorpion",
-    "price": null,
+    "price": 8000,
     "location": "On the ground",
     "time": "7 PM - 4 AM",
     "months": [
