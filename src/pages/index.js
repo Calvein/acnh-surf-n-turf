@@ -65,8 +65,8 @@ const TableWrapper = styled(Box)`
     table,
     th,
     td {
-      /* Gray 50 */
-      border-color: #f7fafc;
+      /* Gray 400 */
+      border-color: #a0aec0;
     }
   }
 
@@ -74,13 +74,13 @@ const TableWrapper = styled(Box)`
     table,
     th,
     td {
-      /* Gray 900 */
-      border-color: #171923;
+      /* Gray 500 */
+      border-color: #718096;
     }
   }
 `
 
-const locations = [...new Set(data.map((d) => d.location))]
+const locations = [...new Set(data.map((d) => d.location).sort())]
 const formatBells = new Intl.NumberFormat()
 const months = [
   'Jan',
@@ -149,7 +149,12 @@ const columns = [
       return (
         <Stack isInline alignItems="center">
           {cell.row.original.image && (
-            <img src={cell.row.original.image} alt={cell.value} lazy="true" />
+            <img
+              src={cell.row.original.image}
+              alt={cell.value}
+              width="64"
+              lazy="true"
+            />
           )}
           <Box>{cell.value}</Box>
         </Stack>

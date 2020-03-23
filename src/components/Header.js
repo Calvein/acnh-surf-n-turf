@@ -29,9 +29,9 @@ const Header = () => {
       display="flex"
       justifyContent="center"
       width="100%"
-      bg={colorMode === 'light' ? 'gray.200' : 'gray.700'}
+      bg={`mode.${colorMode}.headerBg`}
       borderBottom="1px solid"
-      borderBottomColor={colorMode === 'light' ? 'gray.300' : 'gray.600'}
+      borderBottomColor={`mode.${colorMode}.headerBorder`}
     >
       <Container
         display="flex"
