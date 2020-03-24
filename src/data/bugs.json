@@ -85,6 +85,7 @@
   },
   {
     "name": "Common bluebottle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/Common_Bluebottle_NH_Icon.PNG/revision/latest?cb=20200323171420",
     "price": 300,
     "location": "Flying",
     "time": "4 AM - 7 PM",
@@ -105,6 +106,7 @@
   },
   {
     "name": "Paper kite butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/Paper_Kite_Butterfly_NH_Icon.PNG/revision/latest?cb=20200323171515",
     "price": 1000,
     "location": "Flying",
     "time": "8 AM - 7 PM",
@@ -125,6 +127,7 @@
   },
   {
     "name": "Great purple emperor",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/Great_Purple_Emperor_NH_Icon.PNG/revision/latest?cb=20200323171457",
     "price": null,
     "location": "Flying",
     "time": "4 AM - 7 PM",
@@ -227,7 +230,7 @@
   },
   {
     "name": "Queen Alexandra's birdwing",
-    "price": 3000,
+    "price": 4000,
     "location": "Flying",
     "time": "8 AM - 4 PM",
     "months": [
@@ -288,6 +291,7 @@
   },
   {
     "name": "Madagascan sunset moth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Madagascan_Sunset_Moth_NH_Icon.PNG/revision/latest?cb=20200323171503",
     "price": 2500,
     "location": "Flying",
     "time": "8 AM - 4 PM",
@@ -703,6 +707,7 @@
   },
   {
     "name": "Damselfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/Damselfly_NH_Icon.PNG/revision/latest?cb=20200323171426",
     "price": null,
     "location": "Flying",
     "time": "All day",
@@ -806,6 +811,7 @@
   },
   {
     "name": "Giant water bug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Giant_Water_Bug_NH_Icon.PNG/revision/latest?cb=20200323171445",
     "price": 2000,
     "location": "On Ponds and Rivers",
     "time": "7 PM - 8 AM",
@@ -847,6 +853,7 @@
   },
   {
     "name": "Man-faced stink bug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Man-faced_Stink_Bug_NH_Icon.PNG/revision/latest?cb=20200323171509",
     "price": 1000,
     "location": "On flowers",
     "time": "7 PM - 8 AM",
@@ -950,6 +957,7 @@
   },
   {
     "name": "Citrus Long-horned Beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Citrus_Long-horned_Beetle_NH_icon.png/revision/latest?cb=20200323094531",
     "price": 350,
     "location": "On a tree stump",
     "time": "All day",
@@ -970,8 +978,9 @@
   },
   {
     "name": "Rosalia batesi beetle",
-    "price": null,
-    "location": "-",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Rosalia_Batesi_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171521",
+    "price": 3000,
+    "location": "On a tree stump",
     "time": "All day",
     "months": [
       false,
@@ -990,6 +999,7 @@
   },
   {
     "name": "Blue weevil beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/Blue_Weevil_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171413",
     "price": null,
     "location": "?",
     "time": "All day",
@@ -1011,9 +1021,11 @@
   {
     "name": "Dung beetle",
     "price": null,
-    "location": "?",
+    "location": "On ground",
     "time": "?",
     "months": [
+      true,
+      true,
       false,
       false,
       false,
@@ -1023,13 +1035,12 @@
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
     "name": "Earth-boring Dung Beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/Earth-Boring_Dung_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171439",
     "price": 300,
     "location": "On Ground",
     "time": "All day",
@@ -1070,6 +1081,7 @@
   },
   {
     "name": "Drone beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/Drone_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171433",
     "price": null,
     "location": "On Tree",
     "time": "All day",
@@ -1230,6 +1242,7 @@
   },
   {
     "name": "Giraffe stag",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/Giraffe_Stag_NH_Icon.PNG/revision/latest?cb=20200323171451",
     "price": null,
     "location": "On Trees",
     "time": "5 PM - 8 AM",
