@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 import { useTable, useSortBy, useFilters, useGlobalFilter } from 'react-table'
 import {
   Input,
@@ -96,6 +96,14 @@ const months = [
   'Nov',
   'Dec',
 ]
+const shadows = [
+  ...new Set(
+    data
+      .map((d) => d.shadow)
+      .filter((d) => d)
+      .sort(),
+  ),
+]
 
 const columns = [
   {
@@ -148,14 +156,11 @@ const columns = [
     Cell: ({ cell }) => {
       return (
         <Stack isInline alignItems="center">
-          {cell.row.original.image && (
-            <img
-              src={cell.row.original.image}
-              alt={cell.value}
-              width="64"
-              lazy="true"
-            />
-          )}
+          <Box width="64px" minHeight="64px">
+            {cell.row.original.image && (
+              <img src={cell.row.original.image} alt={cell.value} lazy="true" />
+            )}
+          </Box>
           <Box>{cell.value}</Box>
         </Stack>
       )
@@ -194,8 +199,6 @@ const columns = [
       )
     },
   },
-  // The data is here but it's quite useless
-  // { Header: 'Shadow size', accessor: 'shadow', disableFilters: true },
   {
     Header: 'Time',
     accessor: 'time',
@@ -245,6 +248,31 @@ const columns = [
               {months.map((month, i) => (
                 <option key={i} value={i}>
                   {month}
+                </option>
+              ))}
+            </Select>
+          </FormLabel>
+        </FormControl>
+      )
+    },
+  },
+  {
+    Header: 'Shadow size',
+    accessor: 'shadow',
+    Filter: ({ column: { setFilter } }) => {
+      return (
+        <FormControl>
+          <FormLabel display={['block', 'inline-block']} minWidth="40">
+            Shadow
+            <Select
+              onChange={(e) => {
+                setFilter(Number(e.target.value))
+              }}
+            >
+              <option value="">All</option>
+              {shadows.map((shadow) => (
+                <option key={shadow} value={shadow}>
+                  {shadow}
                 </option>
               ))}
             </Select>
@@ -418,9 +446,11 @@ const HomePage = () => {
         />
 
         <Flex direction={['column', 'row']} my={4}>
-          {headers.map((column) =>
-            column.canFilter ? column.render('Filter') : null,
-          )}
+          {headers.map((column) => (
+            <Fragment key={column.id}>
+              {column.canFilter ? column.render('Filter') : null}
+            </Fragment>
+          ))}
         </Flex>
 
         <TableWrapper>

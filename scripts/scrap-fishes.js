@@ -5,7 +5,7 @@ const formatText = (el) => el.textContent.trim()
 const formatImage = (el) => $('img', el).attr('data-src')
 const formatShadow = (el) => {
   const text = formatText(el)
-  return text === '?' ? null : parseInt(text)
+  return text === '?' ? null : text
 }
 const formatPrice = (el) =>
   parseInt(formatText(el).replace(',', ''), 10) || null
