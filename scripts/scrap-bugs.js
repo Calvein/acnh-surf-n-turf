@@ -2,6 +2,7 @@
 // on https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)
 
 const formatText = (el) => el.textContent.trim()
+const formatLink = (el) => $('a', el).get(0).href
 const formatImage = (el) => $('img', el).attr('data-src')
 const formatPrice = (el) =>
   parseInt(formatText(el).replace(',', ''), 10) || null
@@ -16,6 +17,7 @@ const data = $('.jquery-tablesorter:first tbody tr')
 
     return {
       name: formatText(name),
+      url: formatLink(name),
       image: formatImage(image),
       price: formatPrice(price),
       location: formatText(location),

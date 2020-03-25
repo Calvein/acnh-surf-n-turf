@@ -10,6 +10,7 @@ import {
   FormControl,
   FormLabel,
   Icon,
+  Link,
 } from '@chakra-ui/core'
 import styled from '@emotion/styled'
 import Layout from '../components/Layout'
@@ -155,7 +156,14 @@ const columns = [
     disableFilters: true,
     Cell: ({ cell }) => {
       return (
-        <Stack isInline alignItems="center">
+        <Stack
+          as={Link}
+          href={cell.row.original.url}
+          isExternal
+          target="_blank"
+          isInline
+          alignItems="center"
+        >
           <Box width="64px" minHeight="64px">
             {cell.row.original.image && (
               <img src={cell.row.original.image} alt={cell.value} lazy="true" />
