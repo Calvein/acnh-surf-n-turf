@@ -66,7 +66,7 @@
     "name": "Peacock butterfly",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/Peacock_Butterfly_HHD_Icon.png/revision/latest?cb=20161105203001",
     "price": 2500,
-    "location": "Flying",
+    "location": "Flying by rare flowers",
     "time": "4 AM - 7 PM",
     "months": [
       false,
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "name": "Rajah Brooke's Birdwing",
+    "name": "Rajah Brooke's birdwing",
     "price": 2500,
     "location": "Flying",
     "time": "8 AM - 5 PM",
@@ -461,7 +461,7 @@
     "name": "Orchid mantis",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Orchid_Mantis_HHD_Icon.png/revision/latest?cb=20161105202812",
     "price": 2400,
-    "location": "On flowers (white)",
+    "location": "On flowers (White)",
     "time": "8 AM - 5 PM",
     "months": [
       false,
@@ -771,7 +771,7 @@
     "name": "Pondskater",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Pondskater_HHD_Icon.png/revision/latest?cb=20161105203305",
     "price": 130,
-    "location": "On Ponds",
+    "location": "On Ponds and Rivers",
     "time": "8 AM - 7 PM",
     "months": [
       false,
@@ -936,7 +936,6 @@
   },
   {
     "name": "Violin beetle",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Violin_Beetle_HHD_Icon.png/revision/latest?cb=20161105205501",
     "price": 450,
     "location": "On a tree stump",
     "time": "All day",
@@ -1102,8 +1101,8 @@
   },
   {
     "name": "Goliath beetle",
-    "price": null,
-    "location": "On Trees",
+    "price": 8000,
+    "location": "On Tree (Palm)",
     "time": "5 PM - 8 AM",
     "months": [
       false,
@@ -1182,7 +1181,7 @@
   },
   {
     "name": "Rainbow stag",
-    "price": null,
+    "price": 6000,
     "location": "On Trees",
     "time": "7 PM - 8 AM",
     "months": [
@@ -1386,7 +1385,7 @@
     "name": "Bagworm",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/02/Bagworm_HHD_Icon.png/revision/latest?cb=20161105192557",
     "price": 600,
-    "location": "In trees",
+    "location": "Shaking tree",
     "time": "All day",
     "months": [
       true,
@@ -1428,7 +1427,7 @@
     "name": "Hermit crab",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/Hermit_Crab_HHD_Icon.png/revision/latest?cb=20161105200739",
     "price": 1000,
-    "location": "Beach",
+    "location": "Beach disguised as shells",
     "time": "7 PM - 8 AM",
     "months": [
       true,
@@ -1468,7 +1467,8 @@
   },
   {
     "name": "Fly",
-    "price": null,
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/Fly_ACNH_Icon.png/revision/latest?cb=20200324184024",
+    "price": 60,
     "location": "On trash items",
     "time": "All Day",
     "months": [
@@ -1532,7 +1532,7 @@
     "name": "Snail",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/Snail_HHD_Icon.png/revision/latest?cb=20161105204610",
     "price": 250,
-    "location": "On rocks when raining",
+    "location": "On rocks (Rain)",
     "time": "All day",
     "months": [
       true,
@@ -1595,7 +1595,7 @@
     "name": "Spider",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/Spider_HHD_Icon.png/revision/latest?cb=20161105204758",
     "price": 480,
-    "location": "Shake a tree",
+    "location": "Shaking tree",
     "time": "7 PM - 8 AM",
     "months": [
       true,
