@@ -267,6 +267,13 @@ const columns = [
   {
     Header: 'Shadow size',
     accessor: 'shadow',
+    filter: (rows, ids, filterValue) => {
+      if (!filterValue) return rows
+
+      return rows.filter((row) => {
+        return ids.some((id) => row.values[id] === filterValue)
+      })
+    },
     Filter: ({ column: { setFilter } }) => {
       return (
         <FormControl>
@@ -274,7 +281,7 @@ const columns = [
             Shadow
             <Select
               onChange={(e) => {
-                setFilter(Number(e.target.value))
+                setFilter(e.target.value)
               }}
             >
               <option value="">All</option>
