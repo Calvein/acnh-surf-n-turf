@@ -26,7 +26,7 @@
     "name": "Pale chub",
     "url": "https://animalcrossing.fandom.com/wiki/Pale_chub",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Pale_Chub_HHD_Icon.png/revision/latest?cb=20161105202841",
-    "price": 160,
+    "price": 200,
     "location": "River",
     "shadow": "1",
     "time": "9 AM - 4 PM",
@@ -235,7 +235,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/Crawfish_HHD_Icon.png/revision/latest?cb=20161105194621",
     "price": 200,
     "location": "Pond",
-    "shadow": "3",
+    "shadow": "2",
     "time": "All day",
     "months": [
       false,
@@ -396,7 +396,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/Catfish_HHD_Icon.png/revision/latest?cb=20161105194321",
     "price": 800,
     "location": "Pond",
-    "shadow": null,
+    "shadow": "4",
     "time": "4 PM - 9 AM",
     "months": [
       false,
@@ -417,8 +417,8 @@
     "name": "Giant snakehead",
     "url": "https://animalcrossing.fandom.com/wiki/Giant_snakehead",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/Giant_Snakehead_HHD_Icon.png/revision/latest?cb=20161105195626",
-    "price": null,
-    "location": "Po",
+    "price": 5500,
+    "location": "Pond",
     "shadow": "5",
     "time": "9 AM - 4 PM",
     "months": [
@@ -511,7 +511,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/Tilapia_NH_Icon.png/revision/latest?cb=20200323203246",
     "price": 800,
     "location": "River",
-    "shadow": null,
+    "shadow": "3",
     "time": "All day",
     "months": [
       false,
@@ -979,11 +979,11 @@
       false,
       false,
       false,
+      true,
+      true,
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
-      true,
       false,
       false
     ]
@@ -994,7 +994,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/Arapaima_HHD_Icon.png/revision/latest?cb=20161105192118",
     "price": 10000,
     "location": "River",
-    "shadow": null,
+    "shadow": "6",
     "time": "4 PM - 9 AM",
     "months": [
       false,
@@ -1020,18 +1020,18 @@
     "shadow": "4",
     "time": "9 PM - 4 AM",
     "months": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
       true,
       true,
       true,
       false,
       false,
-      false
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   },
   {
@@ -1209,7 +1209,7 @@
       false,
       true,
       true,
-      false,
+      true,
       true,
       true,
       true,
@@ -1454,7 +1454,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/Moray_Eel_HHD_Icon.png/revision/latest?cb=20161105202356",
     "price": 2000,
     "location": "Sea",
-    "shadow": "5",
+    "shadow": "Narrow",
     "time": "All day",
     "months": [
       false,

@@ -135,7 +135,7 @@
     "name": "Great purple emperor",
     "url": "https://animalcrossing.fandom.com/wiki/Great_purple_emperor",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/Great_Purple_Emperor_NH_Icon.PNG/revision/latest?cb=20200323171457",
-    "price": null,
+    "price": 3000,
     "location": "Flying",
     "time": "4 AM - 7 PM",
     "months": [
@@ -200,6 +200,7 @@
   {
     "name": "Agrias butterfly",
     "url": "https://animalcrossing.fandom.com/wiki/Agrias_butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b5/Agrias_Butterfly_HHD.png/revision/latest?cb=20200326025201",
     "price": 3000,
     "location": "Flying",
     "time": "8 AM - 5 PM",
@@ -220,7 +221,7 @@
   },
   {
     "name": "Rajah Brooke's birdwing",
-    "url": "",
+    "url": "https://animalcrossing.fandom.com/wiki/Rajah_Brooke%27s_birdwing",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4b/Rajahbrookes.png/revision/latest/scale-to-width-down/63?cb=20200325095038",
     "price": 2500,
     "location": "Flying",
@@ -242,7 +243,7 @@
   },
   {
     "name": "Queen Alexandra's birdwing",
-    "url": "",
+    "url": "https://animalcrossing.fandom.com/wiki/Queen_Alexandra%27s_birdwing",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/Queenalex.png/revision/latest/scale-to-width-down/55?cb=20200325094834",
     "price": 4000,
     "location": "Flying",
@@ -286,7 +287,7 @@
   },
   {
     "name": "Atlas moth",
-    "url": "",
+    "url": "https://animalcrossing.fandom.com/wiki/Atlas_moth",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/Atlasmoththumb.png/revision/latest/scale-to-width-down/62?cb=20200325094524",
     "price": 3000,
     "location": "On Trees",
@@ -549,8 +550,9 @@
     ]
   },
   {
-    "name": "Brown cicada",
-    "url": "https://animalcrossing.fandom.com/wiki/Brown_cicada",
+    "name": "Brown Cicada",
+    "url": "https://animalcrossing.fandom.com/wiki/Brown_Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/Brown_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030910",
     "price": null,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
@@ -570,8 +572,9 @@
     ]
   },
   {
-    "name": "Robust cicada",
-    "url": "https://animalcrossing.fandom.com/wiki/Robust_cicada",
+    "name": "Robust Cicada",
+    "url": "https://animalcrossing.fandom.com/wiki/Robust_Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d6/Robust_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030952",
     "price": null,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
@@ -591,8 +594,9 @@
     ]
   },
   {
-    "name": "Giant cicada",
-    "url": "https://animalcrossing.fandom.com/wiki/Giant_cicada",
+    "name": "Giant Cicada",
+    "url": "https://animalcrossing.fandom.com/wiki/Giant_Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/Giant_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030936",
     "price": null,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
@@ -634,8 +638,9 @@
     ]
   },
   {
-    "name": "Evening cicada",
-    "url": "https://animalcrossing.fandom.com/wiki/Evening_cicada",
+    "name": "Evening Cicada",
+    "url": "https://animalcrossing.fandom.com/wiki/Evening_Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Evening_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030923",
     "price": null,
     "location": "On Trees",
     "time": "4 AM - 8 AM & 4 PM - 7 PM",
@@ -965,7 +970,7 @@
     "name": "Jewel beetle",
     "url": "https://animalcrossing.fandom.com/wiki/Jewel_beetle",
     "price": 2400,
-    "location": "On Trees",
+    "location": "On Tree Stumps",
     "time": "All day",
     "months": [
       false,
@@ -1074,8 +1079,8 @@
     "name": "Dung beetle",
     "url": "https://animalcrossing.fandom.com/wiki/Dung_beetle",
     "price": null,
-    "location": "On ground",
-    "time": "?",
+    "location": "On ground (rolling snowballs)",
+    "time": "All day",
     "months": [
       true,
       true,
