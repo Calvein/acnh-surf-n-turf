@@ -1020,18 +1020,18 @@
     "shadow": "4",
     "time": "9 PM - 4 AM",
     "months": [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   },
   {
@@ -1081,7 +1081,7 @@
     ]
   },
   {
-    "name": "Seahorse",
+    "name": "Sea horse",
     "url": "https://animalcrossing.fandom.com/wiki/Seahorse",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/Seahorse_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916225855",
     "price": 1100,
@@ -1104,7 +1104,7 @@
     ]
   },
   {
-    "name": "Clownfish",
+    "name": "Clown fish",
     "url": "https://animalcrossing.fandom.com/wiki/Clownfish",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/Clownfish_HHD_Icon.png/revision/latest?cb=20161105194432",
     "price": 650,
