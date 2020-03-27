@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import { useTable, useSortBy, useFilters, useGlobalFilter } from 'react-table'
 import {
   Input,
@@ -18,7 +18,8 @@ import SEO from '../components/Seo'
 import fishes from '../data/fishes.json'
 import bugs from '../data/bugs.json'
 
-const data = [
+let caughtAnimals = JSON.parse(localStorage.getItem('caughtAnimals')) || []
+const rawData = [
   ...fishes.map((d) => ({
     ...d,
     type: 'fish',
@@ -27,7 +28,10 @@ const data = [
     ...d,
     type: 'bug',
   })),
-]
+].map((animal) => ({
+  ...animal,
+  caught: caughtAnimals.includes(animal.name),
+}))
 
 const TableWrapper = styled(Box)`
   overflow: auto;
@@ -66,8 +70,8 @@ const TableWrapper = styled(Box)`
     table,
     th,
     td {
-      /* Gray 400 */
-      border-color: #a0aec0;
+      /* Gray 500 */
+      border-color: #718096;
     }
   }
 
@@ -75,13 +79,13 @@ const TableWrapper = styled(Box)`
     table,
     th,
     td {
-      /* Gray 500 */
-      border-color: #718096;
+      /* Gray 400 */
+      border-color: #a0aec0;
     }
   }
 `
 
-const locations = [...new Set(data.map((d) => d.location).sort())]
+const locations = [...new Set(rawData.map((d) => d.location).sort())]
 const formatBells = new Intl.NumberFormat()
 const months = [
   'Jan',
@@ -99,7 +103,7 @@ const months = [
 ]
 const shadows = [
   ...new Set(
-    data
+    rawData
       .map((d) => d.shadow)
       .filter((d) => d)
       .sort(),
@@ -298,17 +302,17 @@ const columns = [
   },
   {
     Header: 'Caught',
-    accessor: (row) => `${row.name}-caught`,
+    accessor: 'caught',
     width: 75,
     disableFilters: true,
     disableSortBy: true,
-    Cell: ({ cell, caughtAnimals, onCaughtAnimal }) => {
+    Cell: ({ cell, onCaughtAnimal }) => {
       const animal = cell.row.values.name
 
       return (
         <Flex justifyContent="center">
           <Checkbox
-            defaultIsChecked={caughtAnimals.includes(animal)}
+            isChecked={cell.value}
             value={animal}
             onChange={onCaughtAnimal}
           />
@@ -404,25 +408,25 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
 }
 
 const HomePage = () => {
-  const [caughtAnimals, setCaughtAnimals] = useState(
-    () =>
-      JSON.parse(
-        typeof window === 'undefined'
-          ? null
-          : localStorage.getItem('caughtAnimals'),
-      ) || [],
-  )
+  const [data, setData] = useState(rawData)
 
   const onCaughtAnimal = (e) => {
     const { value, checked } = e.target
 
-    setCaughtAnimals((caughtAnimals) => {
-      const newCaughtAnimals = checked
+    setData((data) => {
+      caughtAnimals = checked
         ? [...caughtAnimals, value]
         : caughtAnimals.filter((d) => d !== value)
-      localStorage.setItem('caughtAnimals', JSON.stringify(newCaughtAnimals))
+      localStorage.setItem('caughtAnimals', JSON.stringify(caughtAnimals))
 
-      return newCaughtAnimals
+      return data.map((d) => {
+        if (d.name !== value) return d
+
+        return {
+          ...d,
+          caught: checked,
+        }
+      })
     })
   }
 
@@ -499,15 +503,12 @@ const HomePage = () => {
                 return (
                   <tr
                     {...row.getRowProps()}
-                    data-is-caught={
-                      caughtAnimals.includes(row.values.name) ? true : null
-                    }
+                    data-is-caught={row.values.caught ? true : null}
                   >
                     {row.cells.map((cell) => (
                       <td {...cell.getCellProps()}>
                         <cell.column.Cell
                           cell={cell}
-                          caughtAnimals={caughtAnimals}
                           onCaughtAnimal={onCaughtAnimal}
                         />
                       </td>
