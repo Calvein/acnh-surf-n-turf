@@ -20,8 +20,18 @@ const sample = (arr) => {
 const randomFish = sample(fishes.filter((d) => d.image))
 const randomBug = sample(bugs.filter((d) => d.image))
 
+let hasRendered = false
 const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode()
+
+  // Workaround this bug: https://github.com/chakra-ui/chakra-ui/issues/511
+  if (!hasRendered) {
+    setTimeout(() => {
+      toggleColorMode()
+      toggleColorMode()
+    })
+    hasRendered = true
+  }
 
   return (
     <Box
@@ -29,9 +39,9 @@ const Header = () => {
       display="flex"
       justifyContent="center"
       width="100%"
-      bg={`mode.${colorMode}.headerBg`}
+      bg={colorMode === 'light' ? 'gray.200' : 'gray.700'}
       borderBottom="1px solid"
-      borderBottomColor={`mode.${colorMode}.headerBorder`}
+      borderBottomColor={colorMode === 'light' ? 'gray.300' : 'gray.600'}
     >
       <Container
         display="flex"
@@ -40,16 +50,12 @@ const Header = () => {
       >
         <Text as="h1" fontFamily="mono">
           <Link as={RouterLink} to="/" display="flex" alignItems="center">
-            <Image
-              src={randomFish.image}
-              alt="random animal"
-              height={8}
-              mr={2}
-            />
+            <Image src={randomFish.image} width={8} height={8} mr={2} />
             AC: NH - Surf 'n' turf
             <Image
+              display={['none', 'block']}
               src={randomBug.image}
-              alt="random animal"
+              width={8}
               height={8}
               ml={2}
             />

@@ -18,7 +18,10 @@ import SEO from '../components/Seo'
 import fishes from '../data/fishes.json'
 import bugs from '../data/bugs.json'
 
-let caughtAnimals = JSON.parse(localStorage.getItem('caughtAnimals')) || []
+let caughtAnimals =
+  typeof window === 'undefined'
+    ? []
+    : JSON.parse(localStorage.getItem('caughtAnimals')) || []
 const rawData = [
   ...fishes.map((d) => ({
     ...d,
