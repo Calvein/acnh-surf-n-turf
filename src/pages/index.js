@@ -314,8 +314,7 @@ const columns = [
     Header: 'Caught',
     accessor: 'caught',
     width: 75,
-    disableFilters: true,
-    disableSortBy: true,
+    sortType: 'basic',
     Cell: ({ cell, onCaughtAnimal }) => {
       const animal = cell.row.values.name
 
@@ -327,6 +326,24 @@ const columns = [
             onChange={onCaughtAnimal}
           />
         </Flex>
+      )
+    },
+    filter: (rows, id, filterValue) => {
+      if (!filterValue) return rows
+
+      return rows.filter((row) => !row.values.caught)
+    },
+    Filter: ({ column: { setFilter, filterValue } }) => {
+      return (
+        <FormControl mr={2}>
+          Not caught
+          <Stack height={10} isInline>
+            <Checkbox
+              isChecked={filterValue}
+              onChange={(e) => setFilter(e.target.checked)}
+            />
+          </Stack>
+        </FormControl>
       )
     },
   },
