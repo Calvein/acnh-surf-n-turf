@@ -36,6 +36,13 @@ const rawData = [
   caught: caughtAnimals.includes(animal.name),
 }))
 
+// See: https://github.com/chakra-ui/chakra-ui/issues/417
+const FixedSelect = styled(Select)`
+  option {
+    color: initial;
+  }
+`
+
 const TableWrapper = styled(Box)`
   overflow: auto;
 
@@ -197,7 +204,7 @@ const columns = [
         <FormControl>
           <FormLabel display={['block', 'inline-block']}>
             Location
-            <Select
+            <FixedSelect
               onChange={(e) => {
                 setFilter(e.target.value || undefined)
               }}
@@ -208,7 +215,7 @@ const columns = [
                   {location}
                 </option>
               ))}
-            </Select>
+            </FixedSelect>
           </FormLabel>
         </FormControl>
       )
@@ -254,7 +261,7 @@ const columns = [
         <FormControl>
           <FormLabel display={['block', 'inline-block']}>
             Month
-            <Select
+            <FixedSelect
               onChange={(e) => {
                 setFilter(Number(e.target.value))
               }}
@@ -265,7 +272,7 @@ const columns = [
                   {month}
                 </option>
               ))}
-            </Select>
+            </FixedSelect>
           </FormLabel>
         </FormControl>
       )
@@ -286,7 +293,7 @@ const columns = [
         <FormControl>
           <FormLabel display={['block', 'inline-block']} minWidth="40">
             Shadow
-            <Select
+            <FixedSelect
               onChange={(e) => {
                 setFilter(e.target.value)
               }}
@@ -297,7 +304,7 @@ const columns = [
                   {shadow}
                 </option>
               ))}
-            </Select>
+            </FixedSelect>
           </FormLabel>
         </FormControl>
       )
