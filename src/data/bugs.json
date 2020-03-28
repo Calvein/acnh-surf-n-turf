@@ -553,7 +553,7 @@
     "name": "Brown Cicada",
     "url": "https://animalcrossing.fandom.com/wiki/Brown_Cicada",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/Brown_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030910",
-    "price": null,
+    "price": 250,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
     "months": [
@@ -575,7 +575,7 @@
     "name": "Robust Cicada",
     "url": "https://animalcrossing.fandom.com/wiki/Robust_Cicada",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d6/Robust_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030952",
-    "price": null,
+    "price": 300,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
     "months": [
@@ -597,7 +597,7 @@
     "name": "Giant Cicada",
     "url": "https://animalcrossing.fandom.com/wiki/Giant_Cicada",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/Giant_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030936",
-    "price": null,
+    "price": 500,
     "location": "On Trees",
     "time": "8 AM - 5 PM",
     "months": [
@@ -641,7 +641,7 @@
     "name": "Evening Cicada",
     "url": "https://animalcrossing.fandom.com/wiki/Evening_Cicada",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Evening_Cicada_HHD.png/revision/latest/scale-to-width-down/60?cb=20200326030923",
-    "price": null,
+    "price": 550,
     "location": "On Trees",
     "time": "4 AM - 8 AM & 4 PM - 7 PM",
     "months": [
@@ -663,7 +663,7 @@
     "name": "Cicada shell",
     "url": "https://animalcrossing.fandom.com/wiki/Cicada_shell",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/Cicada_Shell_HHD_Icon.png/revision/latest?cb=20161105194347",
-    "price": null,
+    "price": 10,
     "location": "On Trees",
     "time": "All day",
     "months": [
@@ -1058,7 +1058,7 @@
     "url": "https://animalcrossing.fandom.com/wiki/Blue_weevil_beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/Blue_Weevil_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171413",
     "price": null,
-    "location": "?",
+    "location": "On Tree (coconut?)",
     "time": "All day",
     "months": [
       false,
@@ -1143,7 +1143,7 @@
     "name": "Drone beetle",
     "url": "https://animalcrossing.fandom.com/wiki/Drone_beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/Drone_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171433",
-    "price": null,
+    "price": 200,
     "location": "On Tree",
     "time": "All day",
     "months": [
@@ -1206,7 +1206,7 @@
   {
     "name": "Miyama stag",
     "url": "https://animalcrossing.fandom.com/wiki/Miyama_stag",
-    "price": null,
+    "price": 1000,
     "location": "On Trees",
     "time": "All day",
     "months": [
@@ -1269,7 +1269,7 @@
   {
     "name": "Cyclommatus stag",
     "url": "https://animalcrossing.fandom.com/wiki/Cyclommatus_stag",
-    "price": null,
+    "price": 8000,
     "location": "On Trees",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1333,7 +1333,7 @@
   {
     "name": "Horned dynastid",
     "url": "https://animalcrossing.fandom.com/wiki/Horned_dynastid",
-    "price": null,
+    "price": 1350,
     "location": "On Trees",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1354,7 +1354,7 @@
   {
     "name": "Horned atlas",
     "url": "https://animalcrossing.fandom.com/wiki/Horned_atlas",
-    "price": null,
+    "price": 8000,
     "location": "On Trees",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1375,7 +1375,7 @@
   {
     "name": "Horned elephant",
     "url": "https://animalcrossing.fandom.com/wiki/Horned_elephant",
-    "price": null,
+    "price": 8000,
     "location": "On Trees",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1418,7 +1418,7 @@
     "name": "Walking stick",
     "url": "https://animalcrossing.fandom.com/wiki/Walking_stick",
     "price": null,
-    "location": "Shaking Tree",
+    "location": "On Trees",
     "time": "4 AM - 8 AM & 5 PM - 7 PM",
     "months": [
       false,
@@ -1548,10 +1548,10 @@
   {
     "name": "Fly",
     "url": "https://animalcrossing.fandom.com/wiki/Fly",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/Fly_ACNH_Icon.png/revision/latest?cb=20200324184024",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a2/NH-Fly.png/revision/latest/scale-to-width-down/64?cb=20200327131214",
     "price": 60,
     "location": "On trash items",
-    "time": "All Day",
+    "time": "All day",
     "months": [
       true,
       true,
@@ -1570,7 +1570,7 @@
   {
     "name": "Mosquito",
     "url": "https://animalcrossing.fandom.com/wiki/Mosquito",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/Mosquito_HHD_Icon.png/revision/latest?cb=20161105202403",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-Mosquito.png/revision/latest/scale-to-width-down/64?cb=20200327131940",
     "price": 130,
     "location": "Flying",
     "time": "5 PM - 4 AM",
@@ -1592,7 +1592,7 @@
   {
     "name": "Flea",
     "url": "https://animalcrossing.fandom.com/wiki/Flea",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/Flea_HHD_Icon.png/revision/latest?cb=20161105195347",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Flea.png/revision/latest/scale-to-width-down/64?cb=20200327131921",
     "price": null,
     "location": "Villager's Heads",
     "time": "All day",
@@ -1614,7 +1614,7 @@
   {
     "name": "Snail",
     "url": "https://animalcrossing.fandom.com/wiki/Snail",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/Snail_HHD_Icon.png/revision/latest?cb=20161105204610",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Snail.png/revision/latest/scale-to-width-down/64?cb=20200327132010",
     "price": 250,
     "location": "On rocks (Rain)",
     "time": "All day",
@@ -1636,7 +1636,7 @@
   {
     "name": "Pill bug",
     "url": "https://animalcrossing.fandom.com/wiki/Pill_bug",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/Pill_Bug_HHD_Icon.png/revision/latest?cb=20161105203103",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Pill-Bug.png/revision/latest/scale-to-width-down/64?cb=20200327131954",
     "price": 250,
     "location": "Hit a rock",
     "time": "11 PM - 4 PM",
@@ -1658,7 +1658,7 @@
   {
     "name": "Centipede",
     "url": "https://animalcrossing.fandom.com/wiki/Centipede",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/Centipede_HHD_Icon.png/revision/latest?cb=20161105194330",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Centipede.png/revision/latest/scale-to-width-down/64?cb=20200327131903",
     "price": 300,
     "location": "Hit a rock",
     "time": "4 PM - 11 PM",
@@ -1680,7 +1680,7 @@
   {
     "name": "Spider",
     "url": "https://animalcrossing.fandom.com/wiki/Spider",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/Spider_HHD_Icon.png/revision/latest?cb=20161105204758",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Spider.png/revision/latest/scale-to-width-down/64?cb=20200327132028",
     "price": 480,
     "location": "Shaking tree",
     "time": "7 PM - 8 AM",
@@ -1702,7 +1702,7 @@
   {
     "name": "Tarantula",
     "url": "https://animalcrossing.fandom.com/wiki/Tarantula",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/Tarantula_HHD_Icon.png/revision/latest?cb=20161105205206",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/aa/NH-Tarantula.png/revision/latest/scale-to-width-down/64?cb=20200327130827",
     "price": 8000,
     "location": "On the ground",
     "time": "7 PM - 4 AM",
@@ -1724,7 +1724,7 @@
   {
     "name": "Scorpion",
     "url": "https://animalcrossing.fandom.com/wiki/Scorpion",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/Scorpionnh.png/revision/latest/scale-to-width-down/62?cb=20200325100311",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Scorpion.png/revision/latest/scale-to-width-down/64?cb=20200327125731",
     "price": 8000,
     "location": "On the ground",
     "time": "7 PM - 4 AM",
