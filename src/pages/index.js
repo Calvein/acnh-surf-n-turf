@@ -410,7 +410,7 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
 
         // Check current hour
         const catchingTime = row.values.time
-        if (catchingTime === 'All day') return true
+        if (catchingTime.toLowerCase() === 'all day') return true
 
         // Badly formatted or unknown time
         if (!timeRegExp.test(catchingTime)) return false
