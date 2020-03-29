@@ -1012,7 +1012,7 @@
   {
     "name": "Citrus Long-horned Beetle",
     "url": "https://animalcrossing.fandom.com/wiki/Citrus_Long-horned_Beetle",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Citrus_Long-horned_Beetle_NH_icon.png/revision/latest?cb=20200323094531",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/Citrus_Long-horned_Beetle_NH.png/revision/latest?cb=20200329033411",
     "price": 350,
     "location": "On a tree stump",
     "time": "All day",
@@ -1593,7 +1593,7 @@
     "name": "Flea",
     "url": "https://animalcrossing.fandom.com/wiki/Flea",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Flea.png/revision/latest/scale-to-width-down/64?cb=20200327131921",
-    "price": null,
+    "price": 70,
     "location": "Villager's Heads",
     "time": "All day",
     "months": [
