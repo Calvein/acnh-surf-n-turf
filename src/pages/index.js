@@ -368,23 +368,43 @@ const GlobalFilter = ({
         }}
         placeholder={`Search ${count} animals...`}
       />
-      <Checkbox
-        onChange={(e) => {
-          setGlobalFilter({
-            ...globalFilter,
-            isAvailableNow: e.target.checked,
-          })
-        }}
-      >
-        Is available now?
-      </Checkbox>
+      <Flex direction={['column', 'row']}>
+        <Checkbox
+          mr={4}
+          onChange={(e) => {
+            setGlobalFilter({
+              ...globalFilter,
+              isAvailableNow: e.target.checked,
+            })
+          }}
+        >
+          Is available now?
+        </Checkbox>
+        <Checkbox
+          onChange={(e) => {
+            setGlobalFilter({
+              ...globalFilter,
+              isSouthernHemisphere: e.target.checked,
+            })
+          }}
+        >
+          Is southern hemisphere ?
+        </Checkbox>
+      </Flex>
     </Stack>
   )
 }
 
-const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
+const globalFilter = (
+  rows,
+  ids,
+  { filterText, isAvailableNow, isSouthernHemisphere },
+) => {
   const now = new Date()
-  const currentMonth = now.getMonth()
+  let currentMonth = now.getMonth()
+  if (isSouthernHemisphere) {
+    currentMonth = (currentMonth + 6) % 11
+  }
   const currentHour = now.getHours()
   const timeRegExp = /(\d*) (\w*) - (\d*) (\w*)/
 
@@ -406,6 +426,7 @@ const globalFilter = (rows, ids, { filterText, isAvailableNow }) => {
         if (!isAvailableNow) return true
 
         // Check current month
+        // if (!row.values.months[currentMonth]) return false
         if (!row.values.months[currentMonth]) return false
 
         // Check current hour
