@@ -751,7 +751,7 @@
     "name": "Damselfly",
     "url": "https://animalcrossing.fandom.com/wiki/Damselfly",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/Damselfly_NH_Icon.PNG/revision/latest?cb=20200323171426",
-    "price": null,
+    "price": 500,
     "location": "Flying",
     "time": "All day",
     "months": [
@@ -1078,8 +1078,8 @@
   {
     "name": "Dung beetle",
     "url": "https://animalcrossing.fandom.com/wiki/Dung_beetle",
-    "price": null,
-    "location": "On ground (rolling snowballs)",
+    "price": 3000,
+    "location": "On the Ground (rolling snowballs)",
     "time": "All day",
     "months": [
       true,
@@ -1101,7 +1101,7 @@
     "url": "https://animalcrossing.fandom.com/wiki/Earth-boring_dung_beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/Earth-Boring_Dung_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171439",
     "price": 300,
-    "location": "On Ground",
+    "location": "On the Ground",
     "time": "All day",
     "months": [
       false,
