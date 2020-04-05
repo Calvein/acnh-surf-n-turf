@@ -224,7 +224,7 @@
     "url": "https://animalcrossing.fandom.com/wiki/Rajah_Brooke%27s_birdwing",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-rajahbrookesbirdwing.png/revision/latest/scale-to-width-down/64?cb=20200401005428",
     "price": 2500,
-    "location": "Flying by Purple Flowers",
+    "location": "Flying",
     "time": "8 AM - 5 PM",
     "months": [
       true,
@@ -1301,7 +1301,7 @@
     "name": "Golden stag",
     "url": "https://animalcrossing.fandom.com/wiki/Golden_stag",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-goldenstag.png/revision/latest/scale-to-width-down/64?cb=20200401005428",
-    "price": null,
+    "price": 12000,
     "location": "On Trees (Coconut)",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1323,7 +1323,7 @@
     "name": "Giraffe stag",
     "url": "https://animalcrossing.fandom.com/wiki/Giraffe_stag",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png/revision/latest/scale-to-width-down/64?cb=20200401005428",
-    "price": null,
+    "price": 12000,
     "location": "On Trees (Coconut?)",
     "time": "5 PM - 8 AM",
     "months": [
@@ -1411,7 +1411,7 @@
     "name": "Horned hercules",
     "url": "https://animalcrossing.fandom.com/wiki/Horned_hercules",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Icon-hornedhercules.png/revision/latest/scale-to-width-down/64?cb=20200401005428",
-    "price": null,
+    "price": 12000,
     "location": "On Trees (Coconut)",
     "time": "5 PM - 8 AM",
     "months": [
